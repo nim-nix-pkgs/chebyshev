@@ -11,7 +11,6 @@
   inputs.src-chebyshev-v0_2_0.ref   = "refs/tags/v0.2.0";
   inputs.src-chebyshev-v0_2_0.owner = "jxy";
   inputs.src-chebyshev-v0_2_0.repo  = "chebyshev";
-  inputs.src-chebyshev-v0_2_0.dir   = "";
   inputs.src-chebyshev-v0_2_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
